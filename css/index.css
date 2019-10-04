@@ -86,6 +86,9 @@ p {
     justify-content: space-evenly;
     width: 95%;
     align-items: flex-end;
+
+
+
 }
 
 
@@ -99,7 +102,30 @@ p {
 a {
     text-decoration: none;
     color: black;
+    -webkit-animation-name: NavLlinkColor; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  animation-name: NavLlinkColor;
+  animation-duration: 7s;
+
 }    
+
+@-webkit-keyframes NavLlinkColor {
+    from {color: rgb(235, 33, 33);}
+    to {color: green;}
+  }
+  
+  /* Standard syntax */
+  @keyframes NavLlinkColor {
+    from {color: red;}
+    to {color: green;}
+  }
+
+
+
+
+
+
+
     
 .Homejumbo{
     padding: 2% 0;
