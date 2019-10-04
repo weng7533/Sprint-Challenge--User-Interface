@@ -119,6 +119,29 @@ a {
     border-bottom: 1px dashed black;
 }
 
+.topAboutPage{
+    margin: 0 0 20px 0;
+    border-bottom: 1px dashed black;
+}
+.topAboutPage h2{
+   
+    
+    margin: 0 20px 20px 20px;
+    
+    
+}
+
+.topAboutPage p{
+   
+    
+    margin: 0 20px 20px 20px;
+    
+}
+
+
+
+
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -174,6 +197,42 @@ a {
 /*  boxes   */
 
 
+.middle-content.AboutPage{
+
+    display: flex;
+    Width: 100%;
+    border-bottom: 1px dashed white;
+   
+}
+
+.middle-content.AboutPage .text-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    Width: 45%;
+    margin-bottom: 2%;
+    border-bottom: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: black;
+   
+}
+
+.middle-content.AboutPage .text-container h2,p{
+    padding: 0 0;
+    margin: 2% 0;
+}
+
+.middle-content.AboutPage .text-container button{
+    padding: 2% 6%;
+    margin: 5% 0;
+    background-color: white;
+    border: 2px solid  black;
+    border-radius: 8px;
+    
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -186,6 +245,11 @@ a {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+
+.bottom-AboutPage{
+    margin: 20px;
 }
 
 footer {
