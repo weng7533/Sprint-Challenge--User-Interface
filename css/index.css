@@ -71,6 +71,72 @@ p {
     margin: 0 auto;
 }
 
+/*  header   */
+
+.headerTop {
+    display: flex;
+    padding: 2% 0;
+    
+}
+
+
+
+.headerTop .headerNav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+    align-items: flex-end;
+
+
+
+}
+
+
+
+.headerTop img{
+    display: flex;
+
+}   
+
+
+a {
+    text-decoration: none;
+    color: black;
+    -webkit-animation-name: NavLlinkColor; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  animation-name: NavLlinkColor;
+  animation-duration: 7s;
+
+}    
+
+@-webkit-keyframes NavLlinkColor {
+    from {color: rgb(235, 33, 33);}
+    to {color: green;}
+  }
+  
+  /* Standard syntax */
+  @keyframes NavLlinkColor {
+    from {color: red;}
+    to {color: green;}
+  }
+
+
+
+
+
+
+
+    
+.Homejumbo{
+    padding: 2% 0;
+}
+
+
+/*  header   */
+
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,11 +145,36 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.topAboutPage{
+    margin: 0 0 20px 0;
+    border-bottom: 1px dashed black;
+}
+.topAboutPage h2{
+   
+    
+    margin: 0 20px 20px 20px;
+    
+    
+}
+
+.topAboutPage p{
+   
+    
+    margin: 0 20px 20px 20px;
+    
+}
+
+
+
+
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +203,62 @@ p {
     justify-content: center;
 }
 
+
+/*  boxes   */
+
+.middle-content .box1.box{background-color: teal}
+.middle-content .box2.box{background-color: gold}
+.middle-content .box3.box{background-color: cadetblue}
+.middle-content .box4.box{background-color: coral}
+.middle-content .box5.box{background-color: crimson}
+.middle-content .box6.box{background-color: forestgreen}
+.middle-content .box7.box{background-color: darkorchid}
+.middle-content .box8.box{background-color: hotpink}
+.middle-content .box9.box{background-color: indigo}
+.middle-content .box10.box{background-color: dodgerblue}
+
+
+
+
+/*  boxes   */
+
+
+.middle-content.AboutPage{
+
+    display: flex;
+    Width: 100%;
+    border-bottom: 1px dashed white;
+   
+}
+
+.middle-content.AboutPage .text-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    Width: 45%;
+    margin-bottom: 2%;
+    border-bottom: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: black;
+   
+}
+
+.middle-content.AboutPage .text-container h2,p{
+    padding: 0 0;
+    margin: 2% 0;
+}
+
+.middle-content.AboutPage .text-container button{
+    padding: 2% 6%;
+    margin: 5% 0;
+    background-color: white;
+    border: 2px solid  black;
+    border-radius: 8px;
+    
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +271,12 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+
+.bottom-AboutPage{
+    margin: 20px;
+    padding: 10px 0;
 }
 
 footer {
